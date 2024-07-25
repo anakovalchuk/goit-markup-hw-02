@@ -47,17 +47,16 @@ ul, ol {
 }
 
 .contacts-link {
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover {
     color: #404bbf;
 }
+
 .hero {
     background: #2e2f42;
     width: 1440px;
@@ -67,7 +66,7 @@ ul, ol {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;  
@@ -78,16 +77,6 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
 }
@@ -98,7 +87,7 @@ ul, ol {
 
 .about-us-subtitle {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px;    
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;   
@@ -120,6 +109,7 @@ ul, ol {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;   
 }
 
@@ -145,10 +135,15 @@ ul, ol {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-.portfoli-subtitle {
+.portfolio-item {
+    background: #fff;
+}
+
+.portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
