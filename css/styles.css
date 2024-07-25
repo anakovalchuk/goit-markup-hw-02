@@ -16,6 +16,10 @@ ul, ol {
     list-style-type: none;
 }
 
+address {
+    font-style: normal;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -42,7 +46,7 @@ ul, ol {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
     color: #404bbf;   
 }
 
@@ -53,20 +57,19 @@ ul, ol {
     color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
 .hero {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;  
@@ -82,7 +85,7 @@ ul, ol {
 }
 
 .hero-btn:hover {
-    background: #404bbf;  
+    background-color: #404bbf;  
 }
 
 .about-us-subtitle {
@@ -106,7 +109,7 @@ ul, ol {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -132,7 +135,7 @@ ul, ol {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -140,7 +143,7 @@ ul, ol {
 }
 
 .portfolio-item {
-    background: #fff;
+    background-color: #fff;
 }
 
 .portfolio-subtitle {
