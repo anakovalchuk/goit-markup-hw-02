@@ -84,7 +84,8 @@ address {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404bbf;  
 }
 
@@ -143,7 +144,7 @@ address {
 }
 
 .portfolio-item {
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
 .portfolio-subtitle {
